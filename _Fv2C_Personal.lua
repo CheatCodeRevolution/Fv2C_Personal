@@ -2871,7 +2871,7 @@ function PC_ON()
         o = -0x4 t = 4 applyOffset()
         x = x1 t = 4 editAll()
         clearAll()
-        gg.alert("🟡 Open Porspector Corner Now....", "", "")
+        gg.alert("🟡 All Done....", "", "")
         return nil
     end
 
@@ -2908,7 +2908,7 @@ function PC_ON()
     x = x1 t = 4 editAll()
     clearAll()
 
-    gg.alert("🟡 Open Porspector Corner Now....", "", "")
+    gg.alert("🟡 All Done....", "", "")
     return nil
 end
 
