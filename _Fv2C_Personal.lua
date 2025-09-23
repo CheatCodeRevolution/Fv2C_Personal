@@ -2794,7 +2794,8 @@ function PC_ON()
         "[ + ] The Crown Society", 
         "[ + ] The Melon Mystery Aid Token", 
         "[ + ] Yellow Ribbon",
-        "[ + ] Key"
+        "[ + ] Key",
+        "[ + ] County Fair Points"
     }
 
     sel2 = gg.choice(items, nil, "💥 Select an item: \n────୨ৎ────────୨ৎ────")
@@ -2874,6 +2875,8 @@ function PC_ON()
         gg.alert("🟡 All Done....", "", "")
         return nil
     end
+
+    if sel2 == 32 then y1 = -2894676908 end
 
     gg.setRanges(gg.REGION_ANONYMOUS)
     x = y1 t = 32 searchNum()
